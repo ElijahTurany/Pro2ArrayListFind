@@ -130,6 +130,7 @@
     <ClCompile Include="Pro2ArrayListFind.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AlgorithmAnalysis.h" />
     <ClInclude Include="CustomArrayList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
