@@ -100,15 +100,15 @@ public:
 		return -1; //1
 	}
 
-	int findPairImproved(Type first, Type second) {
-		for (int i = 0; i < size; i++) {
-			if (i + 1 == j) {
-				if (data[i] == first && data[i+1] == second) {
-						return i;
-				}
+	
+	//O(N)
+	int findPairImproved(Type first, Type second) { //N(2) + 1
+		for (int i = 0; i < size; i++) { // N(2)
+			if (data[i] == first && data[i+1] == second) { //1 + 1 for branch
+					return i; //1
 			}
 		}
-		return -1;
+		return -1;//1
 	}
 
 	template <typename Type>
